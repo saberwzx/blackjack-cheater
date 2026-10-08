@@ -1,4 +1,4 @@
-# BlackJacky
+# BlackJack Cheater
 
 > 把链式算分爆炸装进 21 点赌桌的 Roguelike —— 真正的对手不是庄家的点数，而是**庄家会出千**。
 
