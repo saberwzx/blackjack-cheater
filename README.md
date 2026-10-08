@@ -33,9 +33,10 @@ love "path\to\this\folder"
 
 玩法灵感来自《Balatro》（链式算分与构筑节奏）、《Slay the Spire》（遗物 / 商店骨架）与《Inscryption》（桌游气质）。本项目未使用上述作品的任何美术、音频或代码素材。
 
-## 设计文档
+## 设计文档与开发日志
 
-完整的系统设计、数值口径与模块地图见 [GDD_BlackJacky.md](GDD_BlackJacky.md)。
+- 完整的系统设计、数值口径与模块地图见 [GDD_BlackJacky.md](GDD_BlackJacky.md)；
+- 关键开发节点与技术复盘（坑与教训）见 [DEVLOG.md](DEVLOG.md)。
 
 ## License
 
