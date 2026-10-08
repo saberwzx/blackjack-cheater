@@ -521,7 +521,7 @@ Relics.LIBRARY = {
           end end },
 
     -- ========================================
-    -- 牌靴情报组（BlackJacky「赌信息」玩法 v1）
+    -- 牌靴情报组（Blackjack Cheater「赌信息」玩法 v1）
     --  窥视类：点亮即看穿接下来 N 张；焚牌类：把不确定性烧进弃牌堆
     --  点亮即生效的遗物无 triggers，由 GameState.toggleRelicActive 派发
     -- ========================================

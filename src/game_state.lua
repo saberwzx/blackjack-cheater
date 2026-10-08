@@ -125,7 +125,7 @@ function GameState.new()
     state.streak = 0
     state.firstHitThisRound = false
 
-    -- 牌靴情报（BlackJacky 信息层 v1）
+    -- 牌靴情报（Blackjack Cheater 信息层 v1）
     state._shoePeek = 0          -- 本轮窥视深度（窥牌遗物点亮时设置，resetRound 清）
     state._shoeInfoOpen = false  -- 牌靴情报面板（UI 模态，与 deckOverview 同级互斥）
 

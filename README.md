@@ -1,4 +1,4 @@
-# BlackJack Cheater
+# Blackjack Cheater
 
 > 把链式算分爆炸装进 21 点赌桌的 Roguelike —— 真正的对手不是庄家的点数，而是**庄家会出千**。
 
@@ -35,7 +35,7 @@ love "path\to\this\folder"
 
 ## 设计文档与开发日志
 
-- 完整的系统设计、数值口径与模块地图见GDD；
+- 完整的系统设计、数值口径与模块地图见 [GDD_BlackjackCheater.md](GDD_BlackjackCheater.md)；
 - 关键开发节点与技术复盘（坑与教训）见 [DEVLOG.md](DEVLOG.md)。
 
 ## License

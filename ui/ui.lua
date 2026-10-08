@@ -5338,7 +5338,7 @@ function UI.drawTitleScreen(state)
     -- ========== 中心标题 ==========
     love.graphics.setFont(UI.cjkFontTitle)
     love.graphics.setColor(1, 0.85, 0.2)
-    love.graphics.printf("BlackJacky", 0, wheelCY - 40, W, "center")
+    love.graphics.printf("Blackjack Cheater", 0, wheelCY - 40, W, "center")
 
     -- ========== 按钮（4 个：开始 / 教程 / 冠军牌组 / 退出） ==========
     -- 坐标已在函数开头的「布局推算」段算好（绘制与热区共用同一份结果），此处只负责画
