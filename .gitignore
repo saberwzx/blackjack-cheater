@@ -1,0 +1,16 @@
+# 本地开发与调试（不入库）
+czx方案/
+.promptforge/
+_tools/
+mcp_bridge.lua
+*.log
+
+# 系统垃圾
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# 打包产物
+*.love
+build/
+dist/
