@@ -1,8 +1,8 @@
-# BlackJacky 游戏设计文档 Game Design Document
+# BlackJack Cheater 游戏设计文档 Game Design Document
 
 | 项目 | 内容 |
 | --- | --- |
-| 产品名 | BlackJacky |
+| 产品名 | BlackJack Cheater |
 | 类型 | 单人 Roguelike 构筑卡牌（Roguelike Deck-builder）× 21 点赌桌博弈 |
 | 平台 | Windows 桌面（键鼠），分辨率 800×600 / 1280×720 / 1600×900 / 1920×1080 |
 | 引擎 | LÖVE 11.5（LuaJIT / Lua 5.1 语义），零第三方运行时依赖 |
