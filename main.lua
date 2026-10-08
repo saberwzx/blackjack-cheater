@@ -315,6 +315,7 @@ function love.mousepressed(x, y, button)
         if hitRect(UI._shoeEntryBtn, x, y) then
             state._shoeInfoOpen = true
             state.deckOverviewOpen = false   -- 同级互斥
+            notifyTutorial(state, "shoe_info_opened")   -- 教程追踪: 情报层
             return
         end
     end
@@ -375,6 +376,7 @@ function love.mousepressed(x, y, button)
     -- 爆注开关（阶段3）：下注阶段点击切换（与 B 键同逻辑）
     if state.state == "bet" and UI._bustBetBtn and hitRect(UI._bustBetBtn, x, y) then
         state._bustBetOn = not state._bustBetOn
+        notifyTutorial(state, "bust_bet_toggled")   -- 教程追踪: 爆注
         return
     end
 
@@ -385,7 +387,9 @@ function love.mousepressed(x, y, button)
     if state.state == "player" and UI._handMarkBtns then
         for _, hb in ipairs(UI._handMarkBtns) do
             if hitRect(hb, x, y) then
-                GameState.markHandCard(state, hb.side, hb.index)
+                if GameState.markHandCard(state, hb.side, hb.index) then
+                    notifyTutorial(state, "card_marked")   -- 教程追踪: 标记（仅成功时）
+                end
                 return
             end
         end
@@ -548,8 +552,10 @@ function love.keypressed(key)
 
     -- 2.5 I 键 toggle 牌靴情报面板（与牌堆总览同级互斥）
     if key == "i" or key == "I" then
+        local wasOpen = state._shoeInfoOpen == true
         state._shoeInfoOpen = not state._shoeInfoOpen
         if state._shoeInfoOpen then state.deckOverviewOpen = false end
+        if not wasOpen then notifyTutorial(state, "shoe_info_opened") end   -- 教程追踪: 情报层
         return
     end
 
@@ -927,6 +933,7 @@ function handleBetKey(key)
     end
     if key == "b" then
         state._bustBetOn = not state._bustBetOn   -- 阶段3 爆注开关（粘滞）
+        notifyTutorial(state, "bust_bet_toggled")   -- 教程追踪: 爆注
     end
 end
 
@@ -953,7 +960,10 @@ function handleBetButtons(x, y)
         if hitRect(btn, x, y) then
             local amounts = { bet50 = 50, bet100 = 100, bet200 = 200 }
             local amount = amounts[btn.id]
-            if amount and GameState.placeBet(state, amount) then return end
+            if amount and GameState.placeBet(state, amount) then
+                notifyTutorial(state, "bet_placed")   -- 教程追踪: 快捷下注也算下注
+                return
+            end
         end
     end
 end

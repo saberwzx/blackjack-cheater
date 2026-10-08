@@ -545,6 +545,8 @@ function UI.drawAll(state)
         UI.drawDeckOverviewOverlay(state)
         UI.drawShoeInfoOverlay(state)
         UI.drawSettingsOverlay(state)
+        -- 教程阶段 9「选一个遗物」落在本状态：不画教程卡，教学指引就整个消失
+        UI.drawTutorialOverlay(state)
         UI.drawTooltip(state); return
     end
 
@@ -5366,7 +5368,7 @@ function UI.drawTitleScreen(state)
     -- 版本号
     love.graphics.setFont(UI.cjkFontSmall)
     love.graphics.setColor(0.45, 0.45, 0.45)
-    love.graphics.printf("v1.0  ·  Love2D 11.5", 0, H - 30, W, "center")
+    love.graphics.printf("v1.1  ·  Love2D 11.5", 0, H - 30, W, "center")
 
     -- 记录按钮区域（供 main.lua 点击检测；绘制与点击共用同一份坐标）
     UI._titleButtons = {
@@ -5389,21 +5391,10 @@ function UI.drawTutorialOverlay(state)
     local W = window_width; local H = window_height
     local sidebar_width = W * 0.12
 
-    -- 动态位置表 — 根据 phase 避开交互区
-    -- 左上角: x=10  (避开右侧 sidebar)
-    -- 右上角: x=W-cardW-sidebar_width-20  (避开左侧滑条和中央手牌)
-    local phase = Tutorial.currentPhase(state)
-    local pos = "right_top"  -- 默认右上角
-
-    if phase then
-        if state.tutorial.phase == 4 then
-            -- Phase 4: 遗物选择界面（全屏盖满，卡片靠边）
-            pos = "left_top"
-        elseif state.tutorial.phase == 5 then
-            -- Phase 5: 教激活遗物（sidebar 有遗物要露出来）
-            pos = "left_top"
-        end
-    end
+    if not phase then return end
+    -- 动态位置：数据驱动（遗物选择要避开居中的 3 张卡；激活遗物要让玩家看右侧遗物栏）
+    -- 旧版写死 phase == 4/5，重编号后失效 —— 现在按阶段自带字段判断
+    local pos = phase.pos or "right_top"
 
     local cardW = 460
     local cardH = 230
@@ -5428,8 +5419,8 @@ function UI.drawTutorialOverlay(state)
     love.graphics.rectangle("line", cardX, cardY, cardW, cardH, 8)
     love.graphics.setLineWidth(1)
 
-    -- 阶段进度
-    local totalPhases = 10
+    -- 阶段进度（总数从数据表取 —— 旧版写死 10，扩到 20 步后会显示错）
+    local totalPhases = #Tutorial.PHASES
     local currentPhase = state.tutorial.phase
     love.graphics.setFont(UI.cjkFontSmall)
     love.graphics.setColor(0.6, 0.6, 0.6)
