@@ -35,7 +35,7 @@ love "path\to\this\folder"
 
 ## 设计文档与开发日志
 
-- 完整的系统设计、数值口径与模块地图见 [GDD_BlackJacky.md](GDD_BlackJacky.md)；
+- 完整的系统设计、数值口径与模块地图见 [GDD_BlackJacky.md](GDD_BlackJack Cheater.md)；
 - 关键开发节点与技术复盘（坑与教训）见 [DEVLOG.md](DEVLOG.md)。
 
 ## License
