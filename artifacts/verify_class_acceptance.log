@@ -1,0 +1,35 @@
+PASS saber(player): 结算前斩庄家最小牌(A=1)+真实弃牌+只斩一次
+PASS saber(player): A 记 1 为最小牌被斩
+PASS saber(dealer): 庄家剑阶斩玩家最小牌
+PASS archer(player): 预览牌靴顶不抽牌/不动牌靴/不消耗随机数
+PASS archer(player): 发牌后第一张带 _peek 且与预览一致
+PASS archer(dealer): 庄家用读玩家点数的 AI=3 且看到玩家首牌
+PASS caster(player): 3 连胜开启 3 选 1，两阶段替换且槽位数不变
+PASS caster(player): 候选互不重复且跳过回到原状态
+PASS caster(dealer): 每 3 连胜夺 1 件、上限 5、玩家 -n 庄家 +floor(n/2)
+PASS caster(dealer): 玩家点数最低钳制到 2 点（GDD 1745）
+PASS rider: player 状态跳过归还注码+边注并消耗一次
+PASS rider: bet 状态跳过不产生幻影归还但消耗次数
+PASS rider: 次数耗尽后不可再跳
+PASS rider 残卷: 未点亮不可跳过（必须 st.shardRiderArmed，不凭持有遗物）
+PASS rider 残卷: relic 点亮置 st.shardRiderArmed；跳成功清 nil 且本模块不扣次
+PASS rod_lost 不再允许 R 跳过（GDD §12.4：只移动已标记牌）
+PASS lancer(player): 第三张会爆时收回顶牌、真实不爆
+PASS lancer(player): 第三张不爆时保留为 3 张
+PASS lancer(dealer): 第三张爆牌被弃、22~25 不算爆
+PASS berserker(player): 25 内不爆且比庄家大判胜
+PASS berserker(player): 22 vs 23 判庄家、22 vs Lancer 22 保留基础 push
+PASS berserker(player): 严格「比庄家大」才胜；庄家狂强制平赢除外
+PASS berserker(player): 67 优先于庄家狂阶强制
+PASS berserker(dealer): 22~25 不小于玩家即判庄家（含平局）
+PASS assassin: 屏蔽 A/E 读牌千招
+PASS assassin: 仅普通职阶不免疫；无职阶不免疫
+PASS 残卷 helper: anyPlayerClass 识别点亮残卷，isPlayerClass 只认职阶
+PASS hard 开局：阶段 1 也有庄家职阶
+PASS dealerClassForStage：永远不同于上一个
+PASS advanceStage 1->2：庄家职阶换成不同职阶
+PASS finishClassFlow 2->3：庄家职阶不同于阶段 2 并进入下注
+PASS install 幂等且导出 GS.classActions
+PASS 职阶 helper 基础行为
+
+class_acceptance: 33 passed, 0 failed

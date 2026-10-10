@@ -1,0 +1,23 @@
+PASS ace_and_ten_exact uses A=1 (A+A is 2, not 12)
+PASS ace_and_ten_exact triggers on A+A+10 (A=1 sum 12)
+PASS give_card_4 forces next hit to 4 and consumes one use
+PASS always_10_on_third makes the third card a 10
+PASS hit_to_20 reaches exactly 20
+PASS pair_to_21 reaches 21 when the pair leaves a <=10 gap
+PASS pair_to_21 caps at +10 when the gap exceeds 10
+PASS eight_ball gives a ten when holding an 8
+PASS first_hit_safe prevents the first bust and consumes
+PASS last_card_save replaces a busting draw with a safe card
+PASS card_pack stores on empty then retrieves on next hit
+PASS black_hole absorbs the first card on the next hit
+PASS twentyone_supreme consumes and marks stage win
+PASS bust_shield consumes and turns bust into push
+PASS peek_1 reveals the top card and consumes
+PASS burn moves cards to the discard pile
+PASS discard_rinse does not consume on an empty discard
+PASS rod_deep sinks a marked card to the bottom
+PASS bet_minimizer forces a $50 bet
+PASS bet_syndicate doubles the confirmed bet
+PASS passive relics are not toggleable
+PASS special mark consumes its relic only when placed
+relic acceptance: PASS=22 FAIL=0

@@ -1,0 +1,61 @@
+{
+  "scope": "LuaJIT rule tests with explicit LOVE stubs; graphics/audio verified separately in LOVE",
+  "results": [
+    {
+      "suite": "syntax",
+      "exit_code": 0,
+      "log": "verify_syntax.log"
+    },
+    {
+      "suite": "run",
+      "exit_code": 0,
+      "log": "verify_run.log"
+    },
+    {
+      "suite": "acceptance",
+      "exit_code": 0,
+      "log": "verify_acceptance.log"
+    },
+    {
+      "suite": "flow_acceptance",
+      "exit_code": 0,
+      "log": "verify_flow_acceptance.log"
+    },
+    {
+      "suite": "probability_acceptance",
+      "exit_code": 0,
+      "log": "verify_probability_acceptance.log"
+    },
+    {
+      "suite": "bar_acceptance",
+      "exit_code": 0,
+      "log": "verify_bar_acceptance.log"
+    },
+    {
+      "suite": "meta_acceptance",
+      "exit_code": 0,
+      "log": "verify_meta_acceptance.log"
+    },
+    {
+      "suite": "class_acceptance",
+      "exit_code": 0,
+      "log": "verify_class_acceptance.log"
+    },
+    {
+      "suite": "relic_acceptance",
+      "exit_code": 0,
+      "log": "verify_relic_acceptance.log"
+    },
+    {
+      "suite": "scoring_acceptance",
+      "exit_code": 0,
+      "log": "verify_scoring_acceptance.log"
+    },
+    {
+      "suite": "stress_acceptance",
+      "exit_code": 0,
+      "log": "verify_stress_acceptance.log"
+    }
+  ],
+  "ok": true
+}

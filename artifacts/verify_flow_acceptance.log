@@ -1,0 +1,19 @@
+PASS Stage one does not clear before its scheduled final round
+PASS Stage one clears at round fifteen when solvent
+PASS Stage two eliminates insufficient chips at deadline
+PASS Stage three can clear before thirty rounds
+PASS Disabling automatic bankruptcy preserves debt play
+PASS Assassin does not disable non-reading cheats
+PASS Deep draw selects needed four and preserves top card
+PASS False accusation ends player turn
+PASS Dealer-turn accusation interrupts pending drawing
+PASS Persistence surfaces a backend write rejection
+PASS Corrupted progress falls back to sanitized defaults
+PASS Normal start and relic selection enter betting
+PASS Null draw is handled without a card crash
+PASS Black hole keeps own identity while inheriting previous traits
+PASS Berserker only tolerates totals up to twenty five
+PASS Certain dealer bust quotes minimum odds
+PASS Impossible dealer bust quotes capped odds
+PASS Budget exhaustion produces unknown quote not invented probability
+Flow acceptance: PASS=18 FAIL=0

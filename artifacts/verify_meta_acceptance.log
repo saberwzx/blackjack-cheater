@@ -1,0 +1,22 @@
+PASS C4 pool is itemized 345 with explicit per-group counts
+PASS Champion contract: price 21, exactly 36, expand 36/72/108
+PASS Tutorial start lands on the live state table and is UI-projected
+PASS Tutorial manual steps advance; bet gate refuses shortcuts and passes on real bet
+PASS Tutorial round_end gate passes only after a real settled round
+PASS Tutorial deck gates require the real open/close actions
+PASS Tutorial pick_relic gate runs on a deterministic real consumable trio
+PASS Tutorial activate_relic gate passes on a real relic activation
+PASS Tutorial completes after all 14 steps and never fakes hard clear
+PASS Aliases route through the same gates (placeBet -> bet)
+PASS install(GS) is idempotent
+PASS Editor is locked until hardCleared (memory progress or state flag)
+PASS Editor unlock also honors persisted progress.meta.hardCleared
+PASS Editor opens over the full 345 pool and exposes a stable UI shape
+PASS Editor toggle caps at 36 and clear empties the selection
+PASS Editor save requires exactly 36 and writes only whitelisted card fields
+PASS Editor save rejects a card carrying a non-whitelisted field
+PASS Editor can be reloaded, preselected from the saved 36, and re-saved
+PASS Editor preselects from an in-memory champion deck when no save exists
+PASS Editor filter validates group keys
+PASS Persisted writes stay on the injected memory fs (no saves21 pollution)
+meta_acceptance: PASS=21 FAIL=0

@@ -1,0 +1,28 @@
+PASS public API surface present
+PASS bucketOf standard ranks and values
+PASS non-standard cards are not standard buckets
+PASS rankComposition merges JQK to 10 and separates unknown
+PASS coverageOf counts categories
+PASS bustOdds hard total exact
+PASS bustOdds soft ace uses opts.hand (naive total would be wrong)
+PASS bustOdds downgrades appended ace to 1 over 21
+PASS bustOdds valued special cards use exact value
+PASS bustOdds unknown card returns nil + reason + coverage gap
+PASS dealerBustOdds known hand one-draw exact
+PASS dealerBustOdds is no-replacement and memo uses bucket state
+PASS dealerBustOdds enumerates unknown hole from available buckets
+PASS dealerBustOdds respects dealer AI difficulty and stand opts
+PASS dealerBustOdds honors 5-hit dealer cap
+PASS dealerBustOdds over depth/budget returns nil + reason (no partial number)
+PASS dealerBustOdds unknown (dice/RPS) -> nil + coverage gap
+PASS dealerBustOdds excludes valued cards + gap (GDD 11.1)
+PASS dealerBustOdds honors core opts.cards (not silently standard52)
+PASS opts.holeUnknown overrides a passed holeCard
+PASS dealerBustOdds missing upcard returns nil reason
+PASS dealerBustOdds delegates to BJ.dealerShouldHitTotal with opts
+PASS intel queries consume no RNG and are deterministic
+PASS orderBand offset and reveal conditions
+PASS cutShoe rotates drawPile and standardCut range
+PASS standard52 fallback converges with nodes > 0
+PASS 200-card realistic sample converges under node budget
+Probability acceptance: PASS=27 FAIL=0

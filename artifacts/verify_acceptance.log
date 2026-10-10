@@ -1,0 +1,19 @@
+PASS Multiple aces downgrade individually
+PASS Explicit value takes priority over ace rank
+PASS Explicit ace value also controls raw total
+PASS Negative and decimal card totals
+PASS Both bust loses to dealer
+PASS Equal normal points push
+PASS Only two cards form natural blackjack
+PASS Soft sixteen means an ace remains eleven
+PASS Deck cut preserves order and identities
+PASS Discard refill preserves physical entities
+PASS UIDs never collide across deck instances
+PASS Natural payout follows GDD gross 1.5x
+PASS Additive and multiplicative bonuses use distinct phases
+PASS Push bonuses appear in net change
+PASS Sixty-seven multiplier applies at final phase
+PASS Catalogue has all unique GDD relics and rarity counts
+PASS Removed bias relics remain excluded from random pool
+PASS All cocktail abilities are distinct and named
+Independent acceptance: PASS=18 FAIL=0

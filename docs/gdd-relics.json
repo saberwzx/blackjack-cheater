@@ -1,0 +1,1114 @@
+[
+  {
+    "name": "倍率戒指",
+    "id": "mult_ring",
+    "rarity": "uncommon",
+    "price": 1200,
+    "spec": "on_score_calc | 永久 | 每局倍率 +1",
+    "line": 1250
+  },
+  {
+    "name": "黄金幸运符",
+    "id": "gold_charm",
+    "rarity": "rare",
+    "price": 1400,
+    "spec": "on_score_calc | 永久 | 每局倍率 +2",
+    "line": 1251
+  },
+  {
+    "name": "超级倍率",
+    "id": "super_mult",
+    "rarity": "legendary",
+    "price": 1800,
+    "spec": "on_score_calc | 永久 | 每局倍率 +3",
+    "line": 1252
+  },
+  {
+    "name": "神之保佑",
+    "id": "divine_blessing",
+    "rarity": "legendary",
+    "price": 1800,
+    "spec": "on_score_calc | 永久 | 每局最终 ×1.2",
+    "line": 1253
+  },
+  {
+    "name": "完美 21",
+    "id": "perfect_21",
+    "rarity": "legendary",
+    "price": 1800,
+    "spec": "on_score_calc | 永久 | 恰好 21 点（非自然）时最终 ×2",
+    "line": 1259
+  },
+  {
+    "name": "21 至尊",
+    "id": "twentyone_supreme",
+    "rarity": "legendary",
+    "price": 800,
+    "spec": "on_score_calc | **1×** | 恰好 21 点直接判该阶段胜利，奖励等同阶段目标的筹码并立刻转阶段（不占本局计数）",
+    "line": 1260
+  },
+  {
+    "name": "精准 12",
+    "id": "ace_and_ten_exact",
+    "rarity": "rare",
+    "price": 1200,
+    "spec": "on_score_calc | 永久 | 点数恰好 12（A 算 1）时倍率 +20",
+    "line": 1261
+  },
+  {
+    "name": "三个 5",
+    "id": "fives_15",
+    "rarity": "legendary",
+    "price": 1520,
+    "spec": "on_score_calc | 永久 | 手牌 ≥3 张 5 时倍率 +30",
+    "line": 1262
+  },
+  {
+    "name": "低牌 buff",
+    "id": "low_buff",
+    "rarity": "rare",
+    "price": 1400,
+    "spec": "on_score_calc | 永久 | 手牌含 3/4/5 时倍率 +2",
+    "line": 1263
+  },
+  {
+    "name": "庄家跟牌",
+    "id": "dealer_mirror_17",
+    "rarity": "rare",
+    "price": 1400,
+    "spec": "on_score_calc | 永久 | 你的点数等于庄家明牌点数时倍率 +3",
+    "line": 1264
+  },
+  {
+    "name": "Blackjack 大师",
+    "id": "blackjack_master",
+    "rarity": "legendary",
+    "price": 1800,
+    "spec": "on_score_calc | 自然 21 时最终 ×5",
+    "line": 1270
+  },
+  {
+    "name": "Blackjack 保险",
+    "id": "bj_insurance",
+    "rarity": "legendary",
+    "price": 1400,
+    "spec": "on_score_calc | 自然 21 不会被庄家反超（强制判胜）",
+    "line": 1271
+  },
+  {
+    "name": "对拍加成",
+    "id": "pair_boost",
+    "rarity": "rare",
+    "price": 1400,
+    "spec": "on_score_calc | 有对子时倍率 +3（10/J/Q/K 互为同点）",
+    "line": 1277
+  },
+  {
+    "name": "对子皇家",
+    "id": "pair_royalty",
+    "rarity": "rare",
+    "price": 1200,
+    "spec": "on_score_calc | 两张同点数 J/Q/K 时倍率 +8",
+    "line": 1278
+  },
+  {
+    "name": "同花大师",
+    "id": "flush_master",
+    "rarity": "legendary",
+    "price": 1800,
+    "spec": "on_score_calc | 4+ 张同花色时最终 ×2",
+    "line": 1279
+  },
+  {
+    "name": "双七",
+    "id": "double_seven",
+    "rarity": "rare",
+    "price": 1260,
+    "spec": "on_score_calc | 手牌有 2 张 7 时倍率 +15",
+    "line": 1280
+  },
+  {
+    "name": "彩虹 21",
+    "id": "rainbow_21",
+    "rarity": "legendary",
+    "price": 1800,
+    "spec": "on_score_calc | 恰好 21 且四种花色齐全时最终 ×2",
+    "line": 1281
+  },
+  {
+    "name": "发条龙",
+    "id": "clockwork_dragon",
+    "rarity": "legendary",
+    "price": 1800,
+    "spec": "on_score_calc | 同时含 A 与 10 点牌且非自然 21 时最终 ×10",
+    "line": 1282
+  },
+  {
+    "name": "平局之王",
+    "id": "push_king",
+    "rarity": "rare",
+    "price": 1400,
+    "spec": "on_score_calc | 平局时倍率 +2 且筹码 +300",
+    "line": 1288
+  },
+  {
+    "name": "平局即胜",
+    "id": "push_as_win",
+    "rarity": "legendary",
+    "price": 1800,
+    "spec": "on_score_calc | 平局判为玩家赢",
+    "line": 1289
+  },
+  {
+    "name": "庄家 22 平局",
+    "id": "dealer_22_push",
+    "rarity": "rare",
+    "price": 1200,
+    "spec": "on_score_calc·被动 | 庄家恰 22 点且玩家 ≤21 时算平局",
+    "line": 1290
+  },
+  {
+    "name": "保险大师",
+    "id": "insurance_master",
+    "rarity": "rare",
+    "price": 1200,
+    "spec": "on_score_calc·被动 | 庄家明 A 且本局输 → 只输一半",
+    "line": 1291
+  },
+  {
+    "name": "第一次 Hit 安全",
+    "id": "first_hit_safe",
+    "rarity": "rare",
+    "price": 200,
+    "spec": "on_hit | 3× | 本小局第一次要牌不会爆牌",
+    "line": 1297
+  },
+  {
+    "name": "爆牌护盾",
+    "id": "bust_shield",
+    "rarity": "legendary",
+    "price": 400,
+    "spec": "on_score_calc | 3× | 爆牌时改判平局并退还下注",
+    "line": 1298
+  },
+  {
+    "name": "软爆护盾",
+    "id": "soft_22_safe",
+    "rarity": "rare",
+    "price": 200,
+    "spec": "on_score_calc | 3× | 22 点不算爆，按正常规则与庄家比大小",
+    "line": 1299
+  },
+  {
+    "name": "软爆护盾 v2",
+    "id": "soft_bust_shield",
+    "rarity": "legendary",
+    "price": 400,
+    "spec": "on_score_calc | 3× | 22 点直接判赢",
+    "line": 1300
+  },
+  {
+    "name": "最后一张救命",
+    "id": "last_card_save",
+    "rarity": "legendary",
+    "price": 520,
+    "spec": "on_hit | 3× | 要牌会爆时自动换成不超过 21 的安全牌（已 21 点则不干预、不扣次）",
+    "line": 1301
+  },
+  {
+    "name": "A 之祝福",
+    "id": "ace_blessing",
+    "rarity": "rare",
+    "price": 1400,
+    "spec": "on_score_calc | 永久 | 手牌每张 A 倍率 +1",
+    "line": 1309
+  },
+  {
+    "name": "A 之保证",
+    "id": "ace_guarantee",
+    "rarity": "legendary",
+    "price": 1400,
+    "spec": "on_deal·Pre | 永久 | 发牌第一张总是 A♠",
+    "line": 1310
+  },
+  {
+    "name": "A 磁铁",
+    "id": "ace_magnet",
+    "rarity": "rare",
+    "price": 1200,
+    "spec": "on_hit | 永久 | 每次要牌 12% 概率直接给一张 A",
+    "line": 1311
+  },
+  {
+    "name": "A 之革命",
+    "id": "ace_revolution",
+    "rarity": "legendary",
+    "price": 1800,
+    "spec": "on_score_calc | 永久 | 你的 A 永远算 11 点（不降级，更容易爆）；67 组合优先",
+    "line": 1312
+  },
+  {
+    "name": "第二张 A",
+    "id": "second_ace",
+    "rarity": "rare",
+    "price": 1200,
+    "spec": "on_deal_after·Pre | 永久 | 发牌后第二张有 40% 概率变成 A♣",
+    "line": 1313
+  },
+  {
+    "name": "10 点保证",
+    "id": "ten_guarantee",
+    "rarity": "rare",
+    "price": 1260,
+    "spec": "on_deal·Pre | 永久 | 发牌第二张总是 10/J/Q/K（随机）",
+    "line": 1314
+  },
+  {
+    "name": "10 点磁铁",
+    "id": "ten_magnet",
+    "rarity": "rare",
+    "price": 1200,
+    "spec": "on_hit | 永久 | 每次要牌 38% 概率给一张 10 点牌",
+    "line": 1315
+  },
+  {
+    "name": "10 点聚光灯",
+    "id": "ten_spotlight",
+    "rarity": "uncommon",
+    "price": 1100,
+    "spec": "on_score_calc | 永久 | 手牌含 10/J/Q/K 时倍率 +1",
+    "line": 1316
+  },
+  {
+    "name": "JQK 配对",
+    "id": "jackpot_two",
+    "rarity": "rare",
+    "price": 1200,
+    "spec": "on_deal_after·Pre | 永久 | 第一张是 J/Q/K 时第二张也换成 J/Q/K",
+    "line": 1317
+  },
+  {
+    "name": "第三张必 10",
+    "id": "always_10_on_third",
+    "rarity": "rare",
+    "price": 1200,
+    "spec": "on_hit | 永久 | 你的第三张牌总是 10♣",
+    "line": 1323
+  },
+  {
+    "name": "16 自动停牌",
+    "id": "auto_surrender_16",
+    "rarity": "uncommon",
+    "price": 1100,
+    "spec": "on_hit | 永久 | 点数 ≥16 时，要牌自动改为停牌（不再抽牌）",
+    "line": 1324
+  },
+  {
+    "name": "牌堆追踪",
+    "id": "peek_and_chase",
+    "rarity": "rare",
+    "price": 1200,
+    "spec": "on_hit | 永久 | 每次要牌 30% 概率直接给一张 10",
+    "line": 1325
+  },
+  {
+    "name": "软手磁铁",
+    "id": "soft_hand_magnet",
+    "rarity": "rare",
+    "price": 1260,
+    "spec": "on_hit | 永久 | 每次要牌 25% 概率给一张 A",
+    "line": 1326
+  },
+  {
+    "name": "凑 20 为止",
+    "id": "hit_to_20",
+    "rarity": "rare",
+    "price": 1260,
+    "spec": "on_hit | 永久 | 点数 <20 且手牌 ≤3 张时，给一张恰好凑到 20 的牌",
+    "line": 1327
+  },
+  {
+    "name": "对子凑 21",
+    "id": "pair_to_21",
+    "rarity": "rare",
+    "price": 1260,
+    "spec": "on_hit | 永久 | 有对子时给一张尽量凑到 21 的牌（点数太低时只加 10）",
+    "line": 1328
+  },
+  {
+    "name": "八球幸运",
+    "id": "eight_ball",
+    "rarity": "uncommon",
+    "price": 1100,
+    "spec": "on_hit | 永久 | 手牌有 8 时，下次要牌必给 10",
+    "line": 1329
+  },
+  {
+    "name": "黑洞",
+    "id": "black_hole",
+    "rarity": "legendary",
+    "price": 1400,
+    "spec": "on_hit | 永久 | 本小局下一次要牌时吸收位于第一位置的牌（激活状态每小局重置，需重新点亮）",
+    "line": 1330
+  },
+  {
+    "name": "卡包",
+    "id": "card_pack",
+    "rarity": "legendary",
+    "price": 1400,
+    "spec": "on_hit | 永久 | 卡包空时下次要牌存入；卡包有牌时下次要牌取出寄存那张（寄存内容在状态栏显示，跨小局保留）",
+    "line": 1331
+  },
+  {
+    "name": "给牌 · 8",
+    "id": "give_card_8",
+    "rarity": "uncommon",
+    "price": 100,
+    "spec": "on_hit | 2× | 下次要牌强制给 8 点（花色随机）",
+    "line": 1337
+  },
+  {
+    "name": "给牌 · 7",
+    "id": "give_card_7",
+    "rarity": "uncommon",
+    "price": 150,
+    "spec": "on_hit | 2× | 强制给 7 点",
+    "line": 1338
+  },
+  {
+    "name": "给牌 · 6",
+    "id": "give_card_6",
+    "rarity": "uncommon",
+    "price": 200,
+    "spec": "on_hit | 2× | 强制给 6 点",
+    "line": 1339
+  },
+  {
+    "name": "给牌 · 5",
+    "id": "give_card_5",
+    "rarity": "uncommon",
+    "price": 250,
+    "spec": "on_hit | 2× | 强制给 5 点",
+    "line": 1340
+  },
+  {
+    "name": "给牌 · 4",
+    "id": "give_card_4",
+    "rarity": "uncommon",
+    "price": 300,
+    "spec": "on_hit | 2× | 强制给 4 点",
+    "line": 1341
+  },
+  {
+    "name": "给牌 · 3",
+    "id": "give_card_3",
+    "rarity": "uncommon",
+    "price": 350,
+    "spec": "on_hit | 2× | 强制给 3 点",
+    "line": 1342
+  },
+  {
+    "name": "给牌 · 2",
+    "id": "give_card_2",
+    "rarity": "uncommon",
+    "price": 400,
+    "spec": "on_hit | 2× | 强制给 2 点",
+    "line": 1343
+  },
+  {
+    "name": "低牌加重",
+    "id": "deck_weight_low",
+    "rarity": "uncommon",
+    "price": 1100,
+    "spec": "on_deal·Pre | ⛔ | 发牌前两张优先抽 2-6",
+    "line": 1351
+  },
+  {
+    "name": "高牌加重",
+    "id": "deck_weight_high",
+    "rarity": "uncommon",
+    "price": 1100,
+    "spec": "on_deal·Pre | ⛔ | 发牌前两张优先抽 10/J/Q/K/A",
+    "line": 1352
+  },
+  {
+    "name": "独享至尊",
+    "id": "exclusive_supreme",
+    "rarity": "legendary",
+    "price": 1400,
+    "spec": "on_round_start·被动 | ⛔ | 本小局只有你能抽到特殊牌组的牌，庄家只能抽固有牌",
+    "line": 1353
+  },
+  {
+    "name": "闭关",
+    "id": "seclusion",
+    "rarity": "common",
+    "price": 1050,
+    "spec": "on_round_start·被动 | ⛔ | 本小局只有庄家能抽到特殊牌组的牌，你只能抽固有牌",
+    "line": 1354
+  },
+  {
+    "name": "庄家克星",
+    "id": "dealer_killer",
+    "rarity": "rare",
+    "price": 1200,
+    "spec": "on_score_calc | 永久 | 庄家爆牌时筹码 +1000",
+    "line": 1360
+  },
+  {
+    "name": "偷金之手",
+    "id": "steal_money",
+    "rarity": "legendary",
+    "price": 1800,
+    "spec": "on_score_calc | 永久 | 庄家爆牌时最终 ×1.2",
+    "line": 1361
+  },
+  {
+    "name": "胆小鬼诅咒",
+    "id": "coward_curse",
+    "rarity": "uncommon",
+    "price": 1200,
+    "spec": "on_score_calc | 永久 | 庄家点数恰为 17 时倍率 +2",
+    "line": 1362
+  },
+  {
+    "name": "庄家疲劳",
+    "id": "dealer_fatigue",
+    "rarity": "rare",
+    "price": 1200,
+    "spec": "on_dealer_turn·被动 | 永久 | 庄家点数 ≥17 即停（覆盖经典的软 17 继续）",
+    "line": 1363
+  },
+  {
+    "name": "庄家致盲",
+    "id": "dealer_blind",
+    "rarity": "rare",
+    "price": 1200,
+    "spec": "on_dealer_turn·被动 | 永久 | 庄家看不到你的第二张牌（AI 难度压回 1 档）",
+    "line": 1364
+  },
+  {
+    "name": "反侦察器",
+    "id": "anti_cheat",
+    "rarity": "legendary",
+    "price": 1400,
+    "spec": "on_dealer_turn | 永久 | 阶段 3 时庄家不会看你的牌（读牌 AI 失效）",
+    "line": 1365
+  },
+  {
+    "name": "庄家磁铁",
+    "id": "dealer_magnet",
+    "rarity": "legendary",
+    "price": 1400,
+    "spec": "on_dealer_hit | 永久 | 庄家要牌时 55% 概率摸到 2~6 的爆牌牌",
+    "line": 1366
+  },
+  {
+    "name": "庄家无面",
+    "id": "no_face_dealer",
+    "rarity": "legendary",
+    "price": 1400,
+    "spec": "on_dealer_hit | 永久 | 庄家摸到 J/Q/K 时自动换成 10",
+    "line": 1367
+  },
+  {
+    "name": "下注集团",
+    "id": "bet_syndicate",
+    "rarity": "rare",
+    "price": 1260,
+    "spec": "on_bet·Pre | 永久 | 每局下注自动翻倍",
+    "line": 1375
+  },
+  {
+    "name": "最小下注者",
+    "id": "bet_minimizer",
+    "rarity": "uncommon",
+    "price": 1100,
+    "spec": "on_bet·Pre | 永久 | 强制下注 $50（多余部分退回筹码，每局都安全）",
+    "line": 1376
+  },
+  {
+    "name": "后期投降",
+    "id": "late_surrender",
+    "rarity": "rare",
+    "price": 1200,
+    "spec": "—（玩家动作 U） | 永久 | 点亮后点数 <18 可投降，退回一半下注",
+    "line": 1377
+  },
+  {
+    "name": "保守策略",
+    "id": "conservative_bet",
+    "rarity": "uncommon",
+    "price": 1200,
+    "spec": "on_score_calc | 下注 ≤$100 且赢时倍率 +3",
+    "line": 1383
+  },
+  {
+    "name": "平衡策略",
+    "id": "balanced_bet",
+    "rarity": "rare",
+    "price": 1400,
+    "spec": "on_score_calc | 下注 $200~$500 且赢时倍率 +5",
+    "line": 1384
+  },
+  {
+    "name": "小额大师",
+    "id": "small_bet_master",
+    "rarity": "rare",
+    "price": 1400,
+    "spec": "on_score_calc | 下注恰为 $50 且赢时倍率 +4 且筹码 +1000",
+    "line": 1385
+  },
+  {
+    "name": "豪赌策略",
+    "id": "aggressive_bet",
+    "rarity": "legendary",
+    "price": 1800,
+    "spec": "on_score_calc | 下注 ≥$500 且赢时最终 ×1.5",
+    "line": 1386
+  },
+  {
+    "name": "全押狂魔",
+    "id": "all_in_fanatic",
+    "rarity": "legendary",
+    "price": 1800,
+    "spec": "on_score_calc | 下注 ≥80% 筹码且赢时最终 ×2",
+    "line": 1387
+  },
+  {
+    "name": "下注狙击手",
+    "id": "bet_sniper",
+    "rarity": "legendary",
+    "price": 1800,
+    "spec": "on_score_calc | 下注 ≥ 筹码一半且赢时最终 ×2",
+    "line": 1388
+  },
+  {
+    "name": "筹码磁铁",
+    "id": "chip_magnet",
+    "rarity": "legendary",
+    "price": 1800,
+    "spec": "on_score_calc | 赢时最终 ×1.3",
+    "line": 1389
+  },
+  {
+    "name": "全押大师",
+    "id": "all_in_master",
+    "rarity": "legendary",
+    "price": 1800,
+    "spec": "on_score_calc | 全押（下注 = 全部筹码）且赢时最终 ×3",
+    "line": 1390
+  },
+  {
+    "name": "信用额度",
+    "id": "credit_line",
+    "rarity": "legendary",
+    "price": 1400,
+    "spec": "on_bet·Pre | 允许下注超出筹码，总额上限 = 筹码的 3 倍；输成负数立即退出",
+    "line": 1396
+  },
+  {
+    "name": "赌徒信条",
+    "id": "all_in_fanatic_rel",
+    "rarity": "legendary",
+    "price": 1400,
+    "spec": "on_bet·Pre | 允许赊账，总额上限 = 筹码的 4 倍；输成负数立即退出",
+    "line": 1397
+  },
+  {
+    "name": "豪客特权",
+    "id": "high_roller",
+    "rarity": "legendary",
+    "price": 1400,
+    "spec": "on_bet·Pre | 允许赊账，额外 +$5,000 固定额度；输成负数立即退出",
+    "line": 1398
+  },
+  {
+    "name": "债主代理人",
+    "id": "debt_collector_pro",
+    "rarity": "legendary",
+    "price": 1800,
+    "spec": "on_score_calc | 用赊账下注且赢时最终 ×1.5",
+    "line": 1399
+  },
+  {
+    "name": "连胜之王",
+    "id": "streak_master",
+    "rarity": "legendary",
+    "price": 1800,
+    "spec": "on_score_calc | 连胜 ≥3 时最终 ×3",
+    "line": 1405
+  },
+  {
+    "name": "连胜铁锤",
+    "id": "streak_hammer",
+    "rarity": "legendary",
+    "price": 1800,
+    "spec": "on_score_calc | 连胜 ≥2 时倍率 +（当前连胜数）",
+    "line": 1406
+  },
+  {
+    "name": "阶段冠军",
+    "id": "stage_champion",
+    "rarity": "legendary",
+    "price": 1800,
+    "spec": "on_score_calc | 阶段 3 时最终 ×1.5",
+    "line": 1407
+  },
+  {
+    "name": "阶段幸存者",
+    "id": "stage_survivor",
+    "rarity": "rare",
+    "price": 1200,
+    "spec": "on_stage_clear·Pre | 阶段完成时额外奖励 $2,000",
+    "line": 1408
+  },
+  {
+    "name": "债务收藏家",
+    "id": "debt_collector",
+    "rarity": "uncommon",
+    "price": 1100,
+    "spec": "on_stage_start·Pre | 每阶段开始借你 $5,000，但输掉一局时先扣掉这笔债",
+    "line": 1409
+  },
+  {
+    "name": "墨水大盗",
+    "id": "ink_thief",
+    "rarity": "rare",
+    "price": 200,
+    "spec": "—（被动判定） | 3× | 墨水标记费用减半（$25/$100/$500，按阶段）",
+    "line": 1417
+  },
+  {
+    "name": "千门人脉",
+    "id": "cheat_consort",
+    "rarity": "legendary",
+    "price": 1400,
+    "spec": "—（被动） | 永久 | 墨水标记上限 +2（5 → 7）。台子里总有人肯替你兜东西",
+    "line": 1418
+  },
+  {
+    "name": "老千世家",
+    "id": "sharp_family",
+    "rarity": "rare",
+    "price": 200,
+    "spec": "—（被动判定） | 3× | 墨水牌被发现时罚金减半，且 50% 概率保住标记",
+    "line": 1419
+  },
+  {
+    "name": "对冲基金",
+    "id": "hedge_fund",
+    "rarity": "legendary",
+    "price": 400,
+    "spec": "—（被动判定） | 3× | 爆注未中返还一半注；命中时彩金再 ×1.25",
+    "line": 1420
+  },
+  {
+    "name": "铁证如山",
+    "id": "iron_evidence",
+    "rarity": "rare",
+    "price": 200,
+    "spec": "—（被动判定） | 3× | 指认成功奖金从 3 倍下注提升至 5 倍",
+    "line": 1421
+  },
+  {
+    "name": "过目不忘",
+    "id": "mind_memory",
+    "rarity": "legendary",
+    "price": 400,
+    "spec": "—（被动判定） | 3× | 点亮窥牌遗物时深度额外 +1；算牌师的每局自动窥视也 +1",
+    "line": 1422
+  },
+  {
+    "name": "显影墨水",
+    "id": "reveal_ink",
+    "rarity": "rare",
+    "price": 800,
+    "spec": "—（被动） | 3× | 标记的同时立刻亮明被标记的那张牌（本就公开的不消耗次数）",
+    "line": 1423
+  },
+  {
+    "name": "作弊探测器",
+    "id": "cheat_probe",
+    "rarity": "uncommon",
+    "price": 1100,
+    "spec": "on_deal·Pre | 阶段 2+ 时干扰项不再出现（看到的痕迹一定为真）",
+    "line": 1429
+  },
+  {
+    "name": "作弊之眼",
+    "id": "cheat_eye",
+    "rarity": "rare",
+    "price": 1200,
+    "spec": "on_deal·Pre | 同上（旧版遗留，**当前与探测器重复**，见 §22.4 #19）",
+    "line": 1430
+  },
+  {
+    "name": "作弊克星",
+    "id": "cheat_buster_1",
+    "rarity": "legendary",
+    "price": 1800,
+    "spec": "on_dealer_turn·被动 | 庄家作弊时强制庄家爆牌",
+    "line": 1431
+  },
+  {
+    "name": "反作弊器",
+    "id": "cheat_reverse",
+    "rarity": "legendary",
+    "price": 1800,
+    "spec": "on_accuse·被动 | 指认猜对时额外获得 3 倍下注的筹码",
+    "line": 1432
+  },
+  {
+    "name": "公平之秤",
+    "id": "scales_of_justice",
+    "rarity": "legendary",
+    "price": 1800,
+    "spec": "on_accuse | 指认猜对时额外获得 2 倍下注的筹码",
+    "line": 1433
+  },
+  {
+    "name": "识破大师",
+    "id": "cheat_sniffer",
+    "rarity": "legendary",
+    "price": 1800,
+    "spec": "on_accuse | 指认猜对时额外获得 5 倍下注的筹码",
+    "line": 1434
+  },
+  {
+    "name": "反作弊陷阱",
+    "id": "cheat_trap",
+    "rarity": "rare",
+    "price": 1200,
+    "spec": "on_accuse | 指认猜对后，下一局自动替你停牌（不保证赢）",
+    "line": 1435
+  },
+  {
+    "name": "庄家恐惧症",
+    "id": "cheat_fear",
+    "rarity": "legendary",
+    "price": 1400,
+    "spec": "on_game_start / on_stage_start·Pre | 阶段 3 的庄家出千概率减半（45% → 22.5%，幂等不累积）",
+    "line": 1436
+  },
+  {
+    "name": "窥牌 · 壹",
+    "id": "peek_1",
+    "rarity": "uncommon",
+    "price": 100,
+    "spec": "点亮即生效 | 3× | 本轮牌靴情报里亮明接下来 1 张（每小局重新点亮）",
+    "line": 1442
+  },
+  {
+    "name": "窥牌 · 贰",
+    "id": "peek_2",
+    "rarity": "rare",
+    "price": 200,
+    "spec": "点亮即生效 | 3× | 亮明接下来 2 张",
+    "line": 1443
+  },
+  {
+    "name": "天眼通",
+    "id": "peek_3",
+    "rarity": "legendary",
+    "price": 400,
+    "spec": "点亮即生效 | 3× | 亮明接下来 3 张",
+    "line": 1444
+  },
+  {
+    "name": "千里眼",
+    "id": "far_sight",
+    "rarity": "legendary",
+    "price": 400,
+    "spec": "点亮即生效 | 3× | 亮明接下来 5 张",
+    "line": 1445
+  },
+  {
+    "name": "算牌师",
+    "id": "peek_auto",
+    "rarity": "rare",
+    "price": 200,
+    "spec": "on_round_start·被动 | 3× | 每小局开始自动亮明接下来 1 张",
+    "line": 1446
+  },
+  {
+    "name": "焚牌术",
+    "id": "burn_1",
+    "rarity": "uncommon",
+    "price": 100,
+    "spec": "点亮即生效 | 3× | 把牌靴顶 1 张烧进弃牌堆（不亮明——减少不确定性也是情报）",
+    "line": 1447
+  },
+  {
+    "name": "炼狱焚堆",
+    "id": "burn_3",
+    "rarity": "rare",
+    "price": 200,
+    "spec": "点亮即生效 | **2×** | 把牌靴顶 3 张烧进弃牌堆",
+    "line": 1448
+  },
+  {
+    "name": "揭示 · 一二",
+    "id": "reveal_12",
+    "rarity": "uncommon",
+    "price": 500,
+    "spec": "3× | 第 1、2 张",
+    "line": 1454
+  },
+  {
+    "name": "揭示 · 三四",
+    "id": "reveal_34",
+    "rarity": "uncommon",
+    "price": 500,
+    "spec": "3× | 第 3、4 张",
+    "line": 1455
+  },
+  {
+    "name": "揭示 · 五六",
+    "id": "reveal_56",
+    "rarity": "uncommon",
+    "price": 700,
+    "spec": "3× | 第 5、6 张",
+    "line": 1456
+  },
+  {
+    "name": "揭示 · 七八",
+    "id": "reveal_78",
+    "rarity": "uncommon",
+    "price": 700,
+    "spec": "3× | 第 7、8 张",
+    "line": 1457
+  },
+  {
+    "name": "揭示 · 一二三",
+    "id": "reveal_123",
+    "rarity": "rare",
+    "price": 900,
+    "spec": "3× | 第 1~3 张",
+    "line": 1458
+  },
+  {
+    "name": "揭示 · 三四五",
+    "id": "reveal_345",
+    "rarity": "rare",
+    "price": 900,
+    "spec": "3× | 第 3~5 张",
+    "line": 1459
+  },
+  {
+    "name": "揭示 · 四五六",
+    "id": "reveal_456",
+    "rarity": "rare",
+    "price": 1000,
+    "spec": "3× | 第 4~6 张",
+    "line": 1460
+  },
+  {
+    "name": "揭示 · 前五张",
+    "id": "reveal_15",
+    "rarity": "legendary",
+    "price": 2500,
+    "spec": "3× | 第 1~5 张",
+    "line": 1461
+  },
+  {
+    "name": "揭示 · 二十到三十",
+    "id": "reveal_20_30",
+    "rarity": "legendary",
+    "price": 1500,
+    "spec": "3× | 第 20~30 张（滚轮后拉查看）",
+    "line": 1462
+  },
+  {
+    "name": "揭示 · 十到二十",
+    "id": "reveal_10_20",
+    "rarity": "legendary",
+    "price": 1800,
+    "spec": "3× | 第 10~20 张（滚轮后拉查看）",
+    "line": 1463
+  },
+  {
+    "name": "深海钓具",
+    "id": "rod_deep",
+    "rarity": "uncommon",
+    "price": 600,
+    "spec": "3× | 点选 | 把一张已标记牌沉到牌库最底",
+    "line": 1471
+  },
+  {
+    "name": "拖钓钓具",
+    "id": "rod_trawl",
+    "rarity": "uncommon",
+    "price": 800,
+    "spec": "3× | 点选 | 把一张已标记牌向牌顶方向拖 3 张（已近顶则到顶）",
+    "line": 1472
+  },
+  {
+    "name": "失控钓具",
+    "id": "rod_rogue",
+    "rarity": "rare",
+    "price": 1000,
+    "spec": "3× | 即发 | 所有标记牌（含双方手上与弃牌堆）随机抛回牌库各处",
+    "line": 1473
+  },
+  {
+    "name": "换位钓具",
+    "id": "rod_swap",
+    "rarity": "rare",
+    "price": 1200,
+    "spec": "3× | 点选 | 依次点两张已标记牌，交换它们在牌库中的位置",
+    "line": 1474
+  },
+  {
+    "name": "标准钓具",
+    "id": "rod_standard",
+    "rarity": "rare",
+    "price": 1500,
+    "spec": "3× | 点选 | 把一张已标记牌钓到牌库第一张",
+    "line": 1475
+  },
+  {
+    "name": "遗弃钓具",
+    "id": "rod_lost",
+    "rarity": "rare",
+    "price": 1800,
+    "spec": "3× | 即发 | 弃牌堆所有标记牌钓回牌库顶（越晚弃的越靠顶）",
+    "line": 1476
+  },
+  {
+    "name": "黄金钓具",
+    "id": "rod_golden",
+    "rarity": "legendary",
+    "price": 3500,
+    "spec": "3× | 即发 | 牌库中所有标记牌按标记顺序钓到顶层依次排列",
+    "line": 1477
+  },
+  {
+    "name": "淘洗",
+    "id": "discard_rinse",
+    "rarity": "common",
+    "price": 500,
+    "spec": "3× | 把整个弃牌堆洗回牌库并随机切牌一次（空堆不消耗次数）",
+    "line": 1483
+  },
+  {
+    "name": "回流",
+    "id": "discard_backflow",
+    "rarity": "uncommon",
+    "price": 900,
+    "spec": "3× | 把最近弃掉的 3 张按原顺序放回牌库顶",
+    "line": 1484
+  },
+  {
+    "name": "打捞",
+    "id": "discard_salvager",
+    "rarity": "rare",
+    "price": 1800,
+    "spec": "3× | 打开情报面板弃牌堆页签，点一张牌 → 下次要牌改为打出这张（照常结算与触发标记）",
+    "line": 1485
+  },
+  {
+    "name": "消失标记",
+    "id": "mark_vanish",
+    "rarity": "rare",
+    "price": 1000,
+    "spec": "3× | 灰 | 标记动作改为「消失」：这张牌被你要到时如同不存在般消失，转而摸下一张",
+    "line": 1491
+  },
+  {
+    "name": "火焰标记",
+    "id": "mark_flame",
+    "rarity": "rare",
+    "price": 1500,
+    "spec": "3× | 金 | 庄家无法要这张牌；庄家的下一张若是火焰牌只能停牌",
+    "line": 1492
+  },
+  {
+    "name": "赏金标记",
+    "id": "mark_bounty",
+    "rarity": "rare",
+    "price": 2000,
+    "spec": "3× | 绿 | 庄家要这张牌时你立刻获得 $500 赏金",
+    "line": 1493
+  },
+  {
+    "name": "虚空标记",
+    "id": "mark_void",
+    "rarity": "rare",
+    "price": 2500,
+    "spec": "3× | 紫 | 标记的瞬间立刻吸收它前面那张牌及其词条（继承倍率与特性；前面没牌则不消耗次数）",
+    "line": 1494
+  },
+  {
+    "name": "爆炸标记",
+    "id": "mark_bomb",
+    "rarity": "rare",
+    "price": 3000,
+    "spec": "3× | 红 | 这张牌被**任何人**摸到时，炸掉其后 2 张牌（移入弃牌堆）",
+    "line": 1495
+  },
+  {
+    "name": "骑之残卷",
+    "id": "class_rider_shard",
+    "rarity": "uncommon",
+    "price": 600,
+    "spec": "3× | 点亮型 | 本小局按 R 可跳过一次（下注归还），点亮即扣次",
+    "line": 1501
+  },
+  {
+    "name": "弓之残卷",
+    "id": "class_archer_shard",
+    "rarity": "uncommon",
+    "price": 800,
+    "spec": "3× | 点亮型 | 本小局发牌时预览你的第一张牌（需在下注前点亮）",
+    "line": 1502
+  },
+  {
+    "name": "枪之残卷",
+    "id": "class_lancer_shard",
+    "rarity": "rare",
+    "price": 1200,
+    "spec": "3× | 点亮型 | 本小局开局发三张（第三张保证不爆 21）",
+    "line": 1503
+  },
+  {
+    "name": "杀之残卷",
+    "id": "class_assassin_shard",
+    "rarity": "rare",
+    "price": 1500,
+    "spec": "3× | 点亮型 | 本小局庄家看不到你的牌（看牌类出千直接放弃）",
+    "line": 1504
+  },
+  {
+    "name": "术之残卷",
+    "id": "class_caster_shard",
+    "rarity": "rare",
+    "price": 1800,
+    "spec": "3× | 被动型 | 连胜 3 局时，从 3 个候选里挑 1 个**替换本遗物自身**（也可以不换）",
+    "line": 1505
+  },
+  {
+    "name": "剑之残卷",
+    "id": "class_saber_shard",
+    "rarity": "legendary",
+    "price": 2500,
+    "spec": "3× | 触发型 | 本小局结算时斩掉庄家点数最小的一张牌（与剑阶不叠加），真实生效才扣次",
+    "line": 1506
+  },
+  {
+    "name": "狂之残卷",
+    "id": "class_berserker_shard",
+    "rarity": "legendary",
+    "price": 2500,
+    "spec": "3× | 触发型 | 本小局 25 点内不爆；未爆且比庄家大直接判胜（与狂阶不叠加，67 优先）",
+    "line": 1507
+  },
+  {
+    "name": "移动网络",
+    "id": "mobile_network",
+    "rarity": "rare",
+    "price": 200,
+    "spec": "点亮即开店 | **1×** | 立刻在要牌阶段打开一次商店，规则与回合末商店完全一致；用后消失",
+    "line": 1513
+  }
+]

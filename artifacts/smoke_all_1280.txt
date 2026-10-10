@@ -1,0 +1,24 @@
+[blackjack-cheater] SMOKE_SHOT E:/game_project/留档与成品/BlackJacky-astra/BlackJacky/artifacts/smoke_title_1280x720.png
+[blackjack-cheater] SMOKE_SHOT E:/game_project/留档与成品/BlackJacky-astra/BlackJacky/artifacts/smoke_relic_1280x720.png
+[blackjack-cheater] SMOKE_SHOT E:/game_project/留档与成品/BlackJacky-astra/BlackJacky/artifacts/smoke_table_1280x720.png
+[blackjack-cheater] SMOKE_SHOT E:/game_project/留档与成品/BlackJacky-astra/BlackJacky/artifacts/smoke_shop_1280x720.png
+[blackjack-cheater] SMOKE_SHOT E:/game_project/留档与成品/BlackJacky-astra/BlackJacky/artifacts/smoke_shoe_1280x720.png
+[blackjack-cheater] SMOKE_SHOT E:/game_project/留档与成品/BlackJacky-astra/BlackJacky/artifacts/smoke_deck_1280x720.png
+[blackjack-cheater] SMOKE_SHOT E:/game_project/留档与成品/BlackJacky-astra/BlackJacky/artifacts/smoke_bar_1280x720.png
+[blackjack-cheater] SMOKE_SHOT E:/game_project/留档与成品/BlackJacky-astra/BlackJacky/artifacts/smoke_gift_1280x720.png
+[blackjack-cheater] SMOKE_SHOT E:/game_project/留档与成品/BlackJacky-astra/BlackJacky/artifacts/smoke_pick_1280x720.png
+[blackjack-cheater] SMOKE_SHOT E:/game_project/留档与成品/BlackJacky-astra/BlackJacky/artifacts/smoke_ending_1280x720.png
+[blackjack-cheater] SMOKE_SHOT E:/game_project/留档与成品/BlackJacky-astra/BlackJacky/artifacts/smoke_editor_1280x720.png
+[blackjack-cheater] SMOKE_SHOT E:/game_project/留档与成品/BlackJacky-astra/BlackJacky/artifacts/smoke_settings_1280x720.png
+[blackjack-cheater] SMOKE_SHOT E:/game_project/留档与成品/BlackJacky-astra/BlackJacky/artifacts/smoke_tutorial_1280x720.png
+[blackjack-cheater] SMOKE_SHOT E:/game_project/留档与成品/BlackJacky-astra/BlackJacky/artifacts/smoke_stageClear_1280x720.png
+[blackjack-cheater] SMOKE_SHOT E:/game_project/留档与成品/BlackJacky-astra/BlackJacky/artifacts/smoke_class_1280x720.png
+[blackjack-cheater] SMOKE_SHOT E:/game_project/留档与成品/BlackJacky-astra/BlackJacky/artifacts/smoke_victory_1280x720.png
+[blackjack-cheater] SMOKE_SHOT E:/game_project/留档与成品/BlackJacky-astra/BlackJacky/artifacts/smoke_forceExit_1280x720.png
+[blackjack-cheater] SMOKE_SHOT E:/game_project/留档与成品/BlackJacky-astra/BlackJacky/artifacts/smoke_cheat_tells_1280x720.png
+[blackjack-cheater] UISTALL flow [结果：等待结算] state=dealer local=nil bet=200 hand=3 shoeOpen=nil settings=false tut=false
+[blackjack-cheater] UI_SCRIPT_DONE flow
+[blackjack-cheater] SMOKE_SHOT E:/game_project/留档与成品/BlackJacky-astra/BlackJacky/artifacts/smoke_flow_1280x720.png
+[blackjack-cheater] UI_SCRIPT_DONE modal
+[blackjack-cheater] SMOKE_SHOT E:/game_project/留档与成品/BlackJacky-astra/BlackJacky/artifacts/smoke_modal_1280x720.png
+[blackjack-cheater] SMOKE_DONE shots=20 failed=0

@@ -1,0 +1,51 @@
+PASS sanity: deck audit detects an injected duplicate UID
+PASS sanity: decision RNG is independent from game RNG
+PASS sanity: seeded runs reproduce the identical opening deal
+PASS sanity: seed replay is deterministic and uid-free
+PASS sanity: holding zones (cardPack/salvageCard) count as audit external
+PASS normal seed 1037 full run
+PASS normal seed 1074 full run
+PASS normal seed 1111 full run
+PASS normal seed 1148 full run
+PASS normal seed 1185 full run
+PASS normal seed 1222 full run
+PASS normal seed 1259 full run
+PASS normal seed 1296 full run
+PASS normal seed 1333 full run
+PASS normal seed 1370 full run
+PASS normal seed 1407 full run
+PASS normal seed 1444 full run
+PASS normal seed 1481 full run
+PASS normal seed 1518 full run
+PASS normal seed 1555 full run
+PASS normal seed 1592 full run
+PASS normal seed 1629 full run
+PASS normal seed 1666 full run
+PASS normal seed 1703 full run
+PASS normal seed 1740 full run
+PASS hard seed 2037 full run
+PASS hard seed 2074 full run
+PASS hard seed 2111 full run
+PASS hard seed 2148 full run
+PASS hard seed 2185 full run
+PASS hard seed 2222 full run
+PASS hard seed 2259 full run
+PASS hard seed 2296 full run
+PASS hard seed 2333 full run
+PASS hard seed 2370 full run
+PASS hard seed 2407 full run
+PASS hard seed 2444 full run
+PASS hard seed 2481 full run
+PASS hard seed 2518 full run
+PASS hard seed 2555 full run
+PASS hard seed 2592 full run
+PASS hard seed 2629 full run
+PASS hard seed 2666 full run
+PASS hard seed 2703 full run
+PASS hard seed 2740 full run
+PASS bar seed 3037 full run
+PASS bar seed 3074 full run
+PASS bar seed 3111 full run
+PASS bar seed 3148 full run
+PASS bar seed 3185 full run
+Stress acceptance: PASS=50 FAIL=0
