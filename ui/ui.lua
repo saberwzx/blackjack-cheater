@@ -5368,7 +5368,7 @@ function UI.drawTitleScreen(state)
     -- 版本号
     love.graphics.setFont(UI.cjkFontSmall)
     love.graphics.setColor(0.45, 0.45, 0.45)
-    love.graphics.printf("v1.1  ·  Love2D 11.5", 0, H - 30, W, "center")
+    love.graphics.printf("v1.2  ·  Love2D 11.5", 0, H - 30, W, "center")
 
     -- 记录按钮区域（供 main.lua 点击检测；绘制与点击共用同一份坐标）
     UI._titleButtons = {

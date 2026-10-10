@@ -234,7 +234,7 @@ function love.draw()
             -- 超级大红色字
             love.graphics.setFont(hugeFont)
             love.graphics.setColor(1, 0.08, 0.08)
-            love.graphics.printf("卧槽没钱给我滚出去！", 0, H * 13 / 30, W, "center")
+            love.graphics.printf("你被请出去了", 0, H * 13 / 30, W, "center")
 
             -- 倒计时 + 最终筹码
             love.graphics.setFont(midFont)
